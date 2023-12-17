@@ -42,7 +42,7 @@ class TaskActivity : AppCompatActivity() {
         val linearLayoutManager = LinearLayoutManager(this@TaskActivity)
         recycler = findViewById(R.id.rv_task)
         recycler.layoutManager = linearLayoutManager
-it 
+
 
         initAction()
 
