@@ -43,7 +43,6 @@ class TaskActivity : AppCompatActivity() {
         recycler = findViewById(R.id.rv_task)
         recycler.layoutManager = linearLayoutManager
 
-
         initAction()
 
         val factory = ViewModelFactory.getInstance(this)
